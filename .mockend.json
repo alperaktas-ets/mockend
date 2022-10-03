@@ -18,7 +18,7 @@
 			}
 		},
 		"company": {
-			"string": { "regexp": "[A-Z][a-z]{5,10}" }
+			{ "regexp": "[A-Z][a-z]{4,14}" }
 		}
 	}
 }
