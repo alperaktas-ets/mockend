@@ -1,28 +1,24 @@
 {
 	"User": {
-		"name": {
-			"string": {}
+		"id": {
+			"int": {
+				"min": 1,
+				"max": 99999999999999
+			}
 		},
-		"avatarUrl": {
-			"regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
-		},
-		"statusMessage": {
-			"string": ["working from home", "watching Netflix"]
-		},
+		"firstName": { "regexp": "[A-Z][a-z]{5,10}" },
+		"lastName": { "regexp": "[A-Z][a-z]{5,10}" },
 		"email": {
 			"regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
 		},
-		"color": {
-			"regexp": "#[0-9A-F]{6}"
-		},
-		"age": {
+		"phone": {
 			"int": {
-				"min": 21,
-				"max": 100
+				"min": 1000000000,
+				"max": 9999999999
 			}
 		},
-		"isPublic": {
-			"boolean": {}
+		"company": {
+			"string": { "regexp": "[A-Z][a-z]{5,10}" }
 		}
 	}
 }
