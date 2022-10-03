@@ -17,8 +17,6 @@
 				"max": 9999999999
 			}
 		},
-		"company": {
-			{ "regexp": "[A-Z][a-z]{4,14}" }
-		}
+		"company": { "regexp": "[A-Z][a-z]{4,14}" }
 	}
 }
