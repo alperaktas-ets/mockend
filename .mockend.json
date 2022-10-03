@@ -8,9 +8,7 @@
 		},
 		"firstName": { "regexp": "[A-Z][a-z]{5,10}" },
 		"lastName": { "regexp": "[A-Z][a-z]{5,10}" },
-		"email": {
-			"regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-		},
+		"email": { "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}" },
 		"phone": {
 			"int": {
 				"min": 1000000000,
